@@ -1,0 +1,147 @@
+:root {
+    --bg-color: #0f111b;
+    --text-color: #c792ea;
+    --link-color: #82aaff;
+    --date-color: #7982a9;
+    --tag-bg: #1a1c2d;
+    --border-color: #2c2f47;
+    --hover-border: #c792ea;
+    --header-color: #89ddff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Courier New', monospace;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.terminal-window {
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background: rgba(28, 30, 47, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-section {
+    margin: 30px 0;
+}
+
+.category-header {
+    color: var(--header-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: rgba(28, 30, 47, 0.3);
+    transition: all 0.3s ease;
+}
+
+article:hover {
+    border-color: var(--hover-border);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(199, 146, 234, 0.1);
+}
+
+.article-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.article-date {
+    color: var(--date-color);
+    font-size: 0.9em;
+}
+
+.tag {
+    background: var(--tag-bg);
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    margin-right: 8px;
+    color: var(--link-color);
+    border: 1px solid var(--border-color);
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+nav a {
+    color: var(--link-color);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: var(--tag-bg);
+    color: var(--header-color);
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    color: var(--date-color);
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.prompt::before {
+    content: "user@cyberblog:~$ ";
+    color: var(--header-color);
+    opacity: 0.8;
+}
+
+.read-more {
+    color: var(--link-color);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    color: var(--header-color);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Article page specific styles */
+.full-article {
+    padding: 30px;
+}
+
+.full-article h1 {
+    color: var(--header-color);
+    margin-bottom: 20px;
+}
+
+.full-article .content {
+    margin-top: 30px;
+}
+
+.full-article pre {
+    background: var(--tag-bg);
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
