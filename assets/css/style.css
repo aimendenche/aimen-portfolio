@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 .prompt::before {
-    content: "user@cyberblog:~$ ";
+    content: "yanis@kalix:~$ ";
     color: var(--header-color);
     opacity: 0.8;
 }
