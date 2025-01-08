@@ -50,7 +50,7 @@ export default function Contact() {
 
     } catch (error: unknown) {
       // On type l'erreur comme unknown et on la traite correctement
-      let errorMessage = "Une erreur est survenue lors de l'envoi du message.";
+      let errorMessage = "Une erreur est survenue lors de l&apos;envoi du message.";
 
       // Si c'est une Error, on utilise son message
       if (error instanceof Error) {
@@ -64,7 +64,7 @@ export default function Contact() {
       });
 
       // On peut aussi logger l'erreur pour le debugging
-      console.error('Erreur lors de l\'envoi du formulaire:', error);
+      console.error('Erreur lors de l\&apos;envoi du formulaire:', error);
     }
   };
   return (
@@ -80,7 +80,7 @@ export default function Contact() {
             Me Contacter
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            N'hésitez pas à me contacter pour discuter de vos projets ou opportunités.
+            N&apos;hésitez pas à me contacter pour discuter de vos projets ou opportunités.
           </p>
         </motion.div>
 
