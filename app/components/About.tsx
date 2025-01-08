@@ -199,8 +199,8 @@ export default function About() {
             {/* Description principale */}
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
               <p className="text-lg leading-relaxed">
-                Je suis une personne passionnée par le partage et l'interaction humaine,
-                Je crois fermement que chacun de nous porte un sac à dos rempli d'expériences, d'émotions et de relations que nous accumulons tout au long de notre vie. C'est ce que nous ramassons qui façonne notre identité et influence notre manière d'interagir avec le monde qui nous entoure.
+                Je suis une personne passionnée par le partage et l&apos;interaction humaine,
+                Je crois fermement que chacun de nous porte un sac à dos rempli d&apos;expériences, d&apos;émotions et de relations que nous accumulons tout au long de notre vie. C&apos;est ce que nous ramassons qui façonne notre identité et influence notre manière d&apos;interagir avec le monde qui nous entoure.
                 Mes valeurs fondamentales guident mes actions et mes choix, tant sur le plan personnel que professionnel.
               </p>
             </div>

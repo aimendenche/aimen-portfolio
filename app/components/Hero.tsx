@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { useEffect, useState } from "react"
+import Image from 'next/image'
 
 export default function Hero() {
   // On garde un seul état pour le texte final
@@ -140,10 +141,13 @@ export default function Hero() {
                            dark:from-blue-400/20 dark:to-purple-400/20 rounded-3xl blur-2xl" />
 
               <div className="relative rounded-2xl overflow-hidden aspect-[3.5/4] max-w-sm mx-auto">
-                <img
+                <Image
                   src="/images/yanis.jpg"
                   alt="Portrait professionnel"
+                  width={600}
+                  height={750}
                   className="w-full h-full object-cover"
+                  priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/20 to-transparent" />
               </div>
