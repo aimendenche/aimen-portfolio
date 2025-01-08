@@ -3,14 +3,12 @@
 import { useTheme } from "./theme-provider"
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Moon, Sun } from "lucide-react"
 
 export default function Navbar() {
   // État pour gérer la transparence de la navbar lors du scroll
   const [isScrolled, setIsScrolled] = useState(false)
 
   // Hook pour gérer le thème clair/sombre
-  const { theme, setTheme } = useTheme()
 
   // Effet pour détecter le scroll et mettre à jour la transparence
   useEffect(() => {
