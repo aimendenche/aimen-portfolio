@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
-interface TechnicalSkill {
+interface SoftSkill {
   id: number
   titre: string
   resumeCourt: string
@@ -14,56 +14,31 @@ interface TechnicalSkill {
     resultats: string
   }
   competences: string[]
-  categorie: "DevOps" | "Cloud" | "Infrastructure"
+  categorie: "Communication" | "Leadership" | "Gestion de projet"
 }
 
-export default function TechnicalSkills() {
+export default function SoftSkills() {
   const [selectedSkill, setSelectedSkill] = useState<number | null>(null)
 
-  const technicalSkills: TechnicalSkill[] = [
+  const softSkills: SoftSkill[] = [
     {
       id: 1,
-      titre: "Expertise Kubernetes et Conteneurisation",
-      resumeCourt: "Maîtrise approfondie de l'orchestration de conteneurs et de la gestion d'infrastructures Kubernetes à grande échelle.",
+      titre: "Leadership & Mentorat Technique",
+      resumeCourt: "Développement et accompagnement des équipes techniques dans l'adoption des meilleures pratiques DevOps.",
       contenuDetaille: {
-        contexte: "Dans un environnement DevOps moderne, j'ai développé une expertise approfondie dans la gestion et l'optimisation des infrastructures conteneurisées.",
-        problematique: "Les défis de scalabilité, de haute disponibilité et de sécurité des applications conteneurisées nécessitent une maîtrise pointue des technologies d'orchestration.",
-        solution: "Mise en place d'architectures Kubernetes robustes, incluant la configuration avancée des clusters, la gestion des ressources, et l'implémentation de politiques de sécurité.",
-        resultats: "Déploiements plus fiables, réduction des temps d'indisponibilité, et amélioration significative de la scalabilité des applications."
+        contexte: "Dans un contexte de transformation digitale, j'ai identifié le besoin d'accompagner les équipes dans leur montée en compétences sur les pratiques DevOps et Cloud.",
+        problematique: "Les équipes techniques étaient confrontées à des défis d'adoption des nouvelles technologies et méthodologies, créant des résistances et ralentissant la transformation.",
+        solution: "Mise en place d'un programme de mentorat structuré : sessions hebdomadaires de formation, ateliers pratiques, et accompagnement personnalisé des équipes.",
+        resultats: "Amélioration significative de l'autonomie des équipes, réduction de 60% des incidents liés aux déploiements, et adoption réussie des pratiques DevOps."
       },
-      competences: ["Kubernetes", "Docker", "Helm", "Service Mesh", "Container Security"],
-      categorie: "DevOps"
-    },
-    {
-      id: 2,
-      titre: "Cloud Architecture AWS",
-      resumeCourt: "Conception et implémentation d'architectures cloud robustes et évolutives sur AWS.",
-      contenuDetaille: {
-        contexte: "Expert en architecture cloud, spécialisé dans la conception de solutions AWS hautement disponibles et sécurisées.",
-        problematique: "Les enjeux de performance, de coûts et de sécurité dans le cloud nécessitent une expertise approfondie des services AWS et des bonnes pratiques.",
-        solution: "Création d'architectures multi-AZ, utilisation optimale des services managés, et mise en place de stratégies de disaster recovery.",
-        resultats: "Disponibilité de 99.99%, optimisation des coûts cloud de 30%, et amélioration de la sécurité globale."
-      },
-      competences: ["AWS", "CloudFormation", "EKS", "RDS", "Lambda"],
-      categorie: "Cloud"
-    },
-    {
-      id: 3,
-      titre: "Infrastructure as Code et Automatisation",
-      resumeCourt: "Expertise en IaC et automatisation des infrastructures avec Terraform et Ansible.",
-      contenuDetaille: {
-        contexte: "Spécialisation dans l'automatisation des infrastructures et la gestion de configurations à grande échelle.",
-        problematique: "La gestion manuelle des infrastructures est source d'erreurs et ne permet pas de répondre aux besoins de scalabilité.",
-        solution: "Implémentation de solutions IaC complètes avec Terraform pour le provisioning et Ansible pour la configuration.",
-        resultats: "Réduction de 90% du temps de déploiement, élimination des erreurs de configuration manuelles."
-      },
-      competences: ["Terraform", "Ansible", "GitOps", "Python", "Bash"],
-      categorie: "Infrastructure"
+      competences: ["Formation", "Accompagnement", "Communication technique", "Gestion du changement"],
+      categorie: "Leadership"
     }
+    // Ajoutez vos autres compétences humaines ici
   ]
 
   return (
-    <section id="technicalskills" className="py-20 bg-white dark:bg-gray-900">
+    <section id="softskills" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -72,12 +47,12 @@ export default function TechnicalSkills() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Compétences Techniques
+            Compétences Humaines
           </h2>
         </motion.div>
 
         <div className="space-y-10">
-          {technicalSkills.map((skill) => (
+          {softSkills.map((skill) => (
             <motion.article
               key={skill.id}
               initial={{ opacity: 0, y: 20 }}
