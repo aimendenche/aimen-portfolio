@@ -53,44 +53,6 @@ Cette mission m'a permis de démontrer ma capacité à transformer des analyses 
       categorie: "Analyse"
     },
     {
-      id: 2,
-      titre: "Gestion de Projet et Coordination d'Équipe",
-      resumeCourt: "Coordination efficace de projets techniques multidisciplinaires, en favorisant la collaboration et la communication.",
-      contenuComplet: `L'Art de la Gestion de Projet Moderne
-
-La gestion de projet moderne va bien au-delà de la simple planification. C'est un art complexe de création de synergie entre des compétences diverses pour atteindre un objectif commun.
-
-Un Défi de Coordination Multidisciplinaire
-
-Lors d'un projet de migration cloud particulièrement complexe, j'ai été confronté à un défi de taille : coordonner une équipe multidisciplinaire composée de développeurs, d'experts en infrastructure et de spécialistes en sécurité. Chaque profil avait ses propres objectifs, méthodes et cultures de travail.
-
-Les Défis Initiaux
-
-Les défis initiaux étaient nombreux. Comment aligner des objectifs techniques parfois divergents ? Comment maintenir la motivation d'une équipe diverse ? Comment garantir une communication claire et efficace entre des professionnels aux backgrounds très différents ?
-
-Stratégie de Communication et de Collaboration
-
-Ma stratégie a reposé sur plusieurs piliers essentiels. J'ai mis en place des rituels de communication réguliers, créant des espaces où chaque membre pouvait exprimer ses perspectives et ses préoccupations. Des tableaux de bord de suivi transparents ont permis à tous d'avoir une vision claire de l'avancement du projet.
-
-Une Approche Collaborative de Résolution des Problèmes
-
-J'ai systématiquement privilégié une approche collaborative de résolution des problèmes. Plutôt que d'imposer des solutions, je facilitais des discussions où chaque expertise pouvait s'exprimer. Cela a non seulement amélioré la qualité des décisions, mais a aussi renforcé la cohésion d'équipe.
-
-Outils et Méthodes de Coordination
-
-Les outils ont joué un rôle crucial. Nous avons utilisé Jira pour la gestion de projet, mis en place des réunions hebdomadaires de synchronisation et créé des canaux de communication dédiés. L'objectif était de fluidifier les échanges et de réduire les zones d'ombre.
-
-Résultats et Impact
-
-Les résultats ont été significatifs. Nous avons réduit les délais de 30%, amélioré la satisfaction de l'équipe et livré le projet dans les temps et le budget impartis. Plus important encore, nous avons créé une dynamique collaborative qui a dépassé le cadre de ce projet spécifique.
-
-Conclusion : La Synergie comme Moteur de Succès
-
-Ma conviction profonde est que la réussite d'un projet repose sur la capacité à créer du lien, à comprendre chaque perspective et à guider collectivement vers un objectif commun.`,
-      competences: ["Coordination", "Communication", "Gestion de projet", "Leadership"],
-      categorie: "Collaboration"
-    },
-    {
       id: 3,
       titre: "Communication Technique et Vulgarisation",
       resumeCourt: "Transformer des concepts techniques complexes en récits compréhensibles pour des publics variés.",
