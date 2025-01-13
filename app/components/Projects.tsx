@@ -20,28 +20,40 @@ export default function Realisations() {
       id: 1,
       titre: "Modernisation du Déploiement d'ArgoCD avec FluxCD",
       resumeCourt: "Transformation du déploiement d'ArgoCD d'une approche Ansible vers une gestion native par FluxCD, renforçant la cohérence GitOps.",
-      contenuComplet: `La transformation du déploiement d'ArgoCD d'une approche Ansible vers une gestion native par FluxCD représente une évolution significative dans notre pratique GitOps. Dans le contexte de la gestion des déploiements GitOps, la cohérence et l'automatisation sont essentielles. 
+      contenuComplet: `La transformation du déploiement d'ArgoCD représente une évolution significative dans notre pratique GitOps.
+
+Contexte
+Dans le contexte de la gestion des déploiements, la cohérence et l'automatisation sont essentielles. Les infrastructures modernes nécessitent des approches agiles et efficaces pour gérer les déploiements continues.
 
 Expertise en GitOps Avancé
-La maîtrise des principes GitOps nécessite une compréhension approfondie des outils de déploiement continu. En transformant le déploiement d'ArgoCD d'une approche Ansible classique vers une gestion complète par FluxCD, j'ai pu démontrer les avantages d'une architecture GitOps pure. Cette transition a permis d'uniformiser notre approche de gestion des déploiements et d'améliorer la traçabilité de nos changements.
+La maîtrise des principes GitOps requiert une compréhension approfondie des outils de déploiement continu. En transformant le déploiement d'ArgoCD d'une approche Ansible classique vers une gestion complète par FluxCD, nous avons démontré les avantages d'une architecture GitOps pure.
 
 Implémentation et Automatisation
 La "fluxification" d'ArgoCD a nécessité une refonte complète de notre approche de déploiement :
-1. **Migration vers Flux** : J'ai créé un repository dédié pour ArgoCD dans notre structure FluxCD, en définissant soigneusement la hiérarchie des ressources et en configurant les Kustomizations appropriées. 
-2. **Configuration des Sources Git** : La mise en place des GitRepositories et Kustomizations dans Flux a permis d'automatiser complètement le cycle de vie d'ArgoCD.
+
+Migration vers Flux
+Nous avons créé un repository dédié pour ArgoCD dans notre structure FluxCD, en définissant soigneusement la hiérarchie des ressources et en configurant les Kustomizations appropriées.
+
+Configuration des Sources Git
+La mise en place des GitRepositories et Kustomizations dans Flux a permis d'automatiser complètement le cycle de vie d'ArgoCD, depuis son déploiement initial jusqu'à ses mises à jour.
 
 Stratégies d'Intégration
 L'intégration d'ArgoCD dans FluxCD a nécessité plusieurs innovations :
-* **Gestion avancée avec Gotk** : L'utilisation des composants Gotk de FluxCD a permis une intégration native et efficace d'ArgoCD dans notre infrastructure GitOps.
-* **Synchronisation bidirectionnelle** : Un système où Flux gère ArgoCD, qui à son tour gère d'autres applications, créant ainsi une architecture GitOps cohérente et auto-suffisante.
 
-Résultats Clés :
-* Réduction de 90% du temps de déploiement d'ArgoCD
-* Fiabilité accrue avec un taux de succès de déploiement de 99.9%
-* Traçabilité complète de toutes les modifications
+Gestion avancée avec Gotk
+L'utilisation des composants Gotk de FluxCD a permis une intégration native et efficace d'ArgoCD dans notre infrastructure GitOps.
+
+Synchronisation bidirectionnelle
+Nous avons mis en place un système où Flux gère ArgoCD, qui à son tour gère d'autres applications, créant ainsi une architecture GitOps cohérente et auto-suffisante.
+
+Résultats
+Cette modernisation a apporté des améliorations significatives :
+- Réduction de 90% du temps de déploiement d'ArgoCD
+- Fiabilité accrue avec un taux de succès de déploiement de 99.9%
+- Traçabilité complète de toutes les modifications
 
 Conclusion
-Cette modernisation a simplifié nos processus et renforcé la cohérence de notre infrastructure, démontrant l'importance d'une stratégie GitOps unifiée et les avantages d'une automatisation poussée dans la gestion des outils de déploiement.`,
+Notre approche a simplifié les processus et renforcé la cohérence de l'infrastructure, démontrant l'importance d'une stratégie GitOps unifiée et les avantages d'une automatisation poussée dans la gestion des outils de déploiement.`,
       competences: ["GitOps", "FluxCD", "ArgoCD", "Kubernetes", "Automatisation"],
       categorie: "GitOps"
     },
@@ -49,27 +61,38 @@ Cette modernisation a simplifié nos processus et renforcé la cohérence de not
       id: 2,
       titre: "Validation Automatisée des Golden Rules Kubernetes",
       resumeCourt: "Développement d'un outil de validation automatique des standards de déploiement Kubernetes pour garantir la stabilité et la sécurité.",
-      contenuComplet: `La validation des standards de déploiement est fondamentale pour maintenir la stabilité et la sécurité des infrastructures Kubernetes en production. Dans un environnement multi-clients où chaque équipe dispose de son propre cluster, il est crucial d'assurer que chaque déploiement respecte les standards de qualité établis.
+      contenuComplet: `La validation des standards de déploiement est un enjeu crucial pour les infrastructures Kubernetes modernes.
+
+Contexte
+Dans un environnement multi-clients où chaque équipe dispose de son propre cluster, il est fondamental d'assurer que chaque déploiement respecte les standards de qualité établis, en particulier dans des environnements de production continue.
 
 Expertise en Validation Kubernetes
-La maîtrise des standards Kubernetes nécessite une compréhension approfondie des bonnes pratiques et des contraintes de sécurité. J'ai développé un outil en Go qui s'intègre nativement à notre infrastructure, analysant automatiquement les déploiements pour garantir leur conformité avec nos Golden Rules.
+La maîtrise des standards Kubernetes nécessite une compréhension approfondie des bonnes pratiques et des contraintes de sécurité. Nous avons développé un outil en Go qui s'intègre nativement à notre infrastructure, analysant automatiquement les déploiements pour garantir leur conformité avec nos Golden Rules.
 
 Implémentation et Automatisation
-L'automatisation de la validation est au cœur de notre stratégie de maintien des standards :
-1. **Validation des sondes de santé** : L'outil vérifie systématiquement la présence et la configuration correcte des sondes readiness/liveness, réduisant de 70% les incidents liés aux problèmes de disponibilité.
-2. **Contrôle des privilèges** : Un système rigoureux de validation des privilèges conteneurs a été mis en place, renforçant significativement la sécurité de l'infrastructure.
+L'automatisation de la validation constitue le cœur de notre stratégie de maintien des standards.
+
+Validation des Sondes de Santé
+Notre outil vérifie systématiquement la présence et la configuration correcte des sondes readiness et liveness. Cette approche a permis de réduire de 70% les incidents liés aux problèmes de disponibilité des applications.
+
+Contrôle des Privilèges
+Un système rigoureux de validation des privilèges conteneurs a été mis en place, renforçant significativement la sécurité de l'infrastructure.
 
 Stratégies de Validation
 Notre approche repose sur plusieurs piliers essentiels :
-* **Analyse temps réel** : L'outil parcourt continuellement les namespaces clients, validant chaque nouveau déploiement selon nos Golden Rules.
-* **Reporting automatisé** : Des rapports détaillés sont automatiquement générés et stockés dans un bucket S3, offrant aux clients une visibilité complète.
+
+Analyse Temps Réel
+L'outil parcourt continuellement les namespaces clients, validant chaque nouveau déploiement selon nos Golden Rules.
+
+Reporting Automatisé
+Des rapports détaillés sont générés automatiquement et stockés dans un bucket S3, offrant aux clients une visibilité complète sur leurs déploiements.
 
 Performances et Impact
-Depuis sa mise en production :
-* Plus de 10,000 validations de déploiements traitées
-* Taux de disponibilité de 99.99%
-* Satisfaction client augmentée de 90%
-* Réduction moyenne de 60% du temps consacré aux revues manuelles
+Depuis sa mise en production, l'outil a démontré des performances remarquables :
+- Plus de 10 000 validations de déploiements traitées
+- Taux de disponibilité de 99.99%
+- Satisfaction client augmentée de 90%
+- Réduction moyenne de 60% du temps consacré aux revues manuelles
 
 Conclusion
 Cet outil de validation des Golden Rules a transformé notre approche de la gestion des déploiements Kubernetes. En production depuis plus d'un an, il continue d'évoluer grâce aux retours des clients et aux nouvelles exigences de sécurité.`,
