@@ -9,7 +9,7 @@ interface CompetenceHumaine {
   resumeCourt: string
   contenuComplet: string
   competences: string[]
-  categorie: "Communication" | "Développement Personnel" | "Leadership"
+  categorie: "Analyse" | "Communication" | "Collaboration"
 }
 
 export default function CompetencesHumaines() {
@@ -18,124 +18,123 @@ export default function CompetencesHumaines() {
   const competencesHumaines: CompetenceHumaine[] = [
     {
       id: 1,
-      titre: "Quand la Communication Fait la Différence",
-      resumeCourt: "Comment transformer des conversations techniques en opportunités de collaboration.",
-      contenuComplet: `J'ai toujours su que communiquer, ce n'est pas juste parler, c'est créer des ponts.
+      titre: "Analyse de l'Environnement Technologique",
+      resumeCourt: "Évaluation comparative approfondie des solutions techniques pour répondre aux besoins spécifiques d'une organisation.",
+      contenuComplet: `L'analyse de l'environnement technologique consiste à évaluer et comparer les différentes solutions techniques disponibles sur le marché afin de répondre précisément aux besoins spécifiques d'une organisation.
 
-Mon Premier Déclic
-Lors d'un projet complexe de migration cloud, j'ai réalisé que le plus grand défi n'était pas technique, mais humain. Comment expliquer des concepts techniques à des personnes qui ne vivent pas dans le code 24h/24 ?
+Contexte du Projet
+J'ai été chargé de réaliser une étude comparative approfondie entre Kubernetes et OpenShift pour l'orchestration de conteneurs, avec un objectif clair : recommander la solution la plus adaptée aux contraintes spécifiques d'une entreprise.
 
-L'Art de Traduire la Tech
-Ma force ? Transformer le jargon technique en histoire compréhensible. Quand mes collègues me regardaient avec des yeux perdus en parlant de microservices, j'ai appris à utiliser des métaphores :
-- Un microservice, c'est comme un employé spécialisé dans une entreprise
-- L'orchestration, c'est le chef d'orchestre qui coordonne
+Méthodologie d'Analyse
 
-Situations Concrètes
-Un jour, lors d'une réunion avec des managers, j'ai dû expliquer pourquoi notre migration vers Kubernetes prendrait du temps. Au lieu de noyer mon monde dans des détails techniques, j'ai comparé ça à déménager : on ne change pas toute une infrastructure en claquant des doigts.
+Définition des Critères d'Évaluation
+Ma démarche a été structurée autour de critères précis :
+- Fonctionnalités de déploiement
+- Gestion des ressources
+- Mécanismes de sécurité
+- Capacités de scalabilité
+- Coûts d'implémentation et de maintenance
 
-Apprentissages Clés
-- Écouter avant de parler
-- Vulgariser sans perdre en précision
-- S'adapter à chaque interlocuteur
+Collecte et Analyse des Informations
+Mon processus d'analyse a comporté plusieurs étapes essentielles :
+- Consultation de la documentation officielle
+- Analyse approfondie des études de cas existantes
+- Recueil de retours d'expérience d'utilisateurs
+- Entretiens avec des experts techniques et responsables opérationnels
 
-Mes Petites Victoires
-- Réduire les incompréhensions techniques
-- Faire comprendre des choix complexes
-- Créer de la cohésion dans les équipes
+Approche Collaborative
+Les entretiens avec les experts ont été déterminants. Leurs perspectives m'ont permis d'intégrer des dimensions souvent négligées :
+- Facilité d'intégration avec les systèmes existants
+- Niveau de support technique
+- Adéquation avec l'écosystème technologique du client
 
-Ce Que Ça M'a Apporté
-La communication m'a permis de :
-- Gérer des projets plus efficacement
-- Construire des relations de confiance
-- Me faire comprendre, même sur des sujets techniques complexes
+Analyse Comparative Détaillée
+J'ai établi une matrice comparative exhaustive, mettant en lumière :
+- Points forts de chaque solution
+- Limitations potentielles
+- Adéquation précise aux besoins spécifiques du client
+
+Résultats et Recommandations
+Ma recommandation finale a pris en compte :
+- Les contraintes budgétaires
+- Les capacités de montée en charge
+- La complexité d'implémentation
+- Les perspectives d'évolution technologique
 
 Conclusion
-Communiquer, ce n'est pas un don, c'est un skill qui se travaille. Chaque conversation est une opportunité d'apprentissage.`,
-      competences: ["Communication", "Écoute", "Vulgarisation", "Adaptabilité", "Pédagogie"],
-      categorie: "Communication"
+Cette mission m'a permis de démontrer ma capacité à transformer des analyses techniques complexes en recommandations stratégiques concrètes, en plaçant les besoins réels du client au cœur de ma démarche.`,
+      competences: ["Analyse comparative", "Évaluation technique", "Recherche", "Recommandation stratégique"],
+      categorie: "Analyse"
     },
     {
       id: 2,
-      titre: "Mon Parcours d'Adaptation Technique",
-      resumeCourt: "Comment j'ai transformé les changements technologiques en opportunités de croissance.",
-      contenuComplet: `Le monde tech, c'est un peu comme un manège qui n'arrête jamais de tourner : si tu ne t'adaptes pas, tu tombes.
+      titre: "Gestion de Projet et Coordination d'Équipe",
+      resumeCourt: "Coordination efficace de projets techniques multidisciplinaires, en favorisant la collaboration et la communication.",
+      contenuComplet: `La gestion de projet va bien au-delà de la simple planification. C'est l'art de créer une synergie entre des compétences diverses pour atteindre un objectif commun.
 
-Mes Débuts Chaotiques
-Quand j'ai commencé, j'étais persuadé que maîtriser un langage de programmation suffirait. Grosse erreur. En six mois, mes certitudes ont volé en éclats.
+Contexte
+Dans un projet de migration cloud complexe impliquant plusieurs équipes et technologies, j'ai dû coordonner des experts aux profils très variés : développeurs, infrastructures, sécurité.
 
-Comment J'ai Appris à Apprendre
-Ma méthode ? Pas de panique, de la curiosité et beaucoup de pratique.
-- Chaque nouvelle technologie devient un défi personnel
-- Je ne dis plus "je ne sais pas", mais "je vais apprendre"
-- Les tutoriels, les forums, les collègues : mes meilleurs alliés
+Défis Principaux
+- Alignement des objectifs techniques et métiers
+- Gestion des différences de culture et de communication
+- Maintien de la motivation et de l'engagement
 
-Exemples Concrets
-Kubernetes ? J'étais perdu au début. Aujourd'hui, je le déploie les yeux fermés.
-Docker ? J'ai commencé par copier-coller des configurations, maintenant je les écris.
+Stratégies Développées
+Plusieurs approches ont été clés dans ma réussite :
+- Mise en place de rituels de communication réguliers
+- Création de tableaux de bord de suivi transparents
+- Méthode de résolution collaborative des problèmes
 
-Mes Stratégies
-- 1h par jour d'apprentissage
-- Des projets personnels pour tester
-- Ne jamais rester bloqué plus de 2h sans demander de l'aide
+Outils et Méthodes
+- Utilisation de Jira pour la gestion de projet
+- Mise en place de réunions hebdomadaires de synchronisation
+- Création de canaux de communication dédiés
 
-Moments de Doute
-Bien sûr, il y a eu des moments difficiles :
-- Des bugs incompréhensibles
-- Des technologies qui semblaient insurmontables
-- La peur de ne pas être à la hauteur
-
-Ce Que Ça M'a Apporté
-- Réactivité face aux changements
-- Confiance en ma capacité d'apprentissage
-- Un réseau technique riche
+Impact
+- Réduction des délais de 30%
+- Amélioration de la satisfaction équipe
+- Livraison du projet dans les temps et le budget
 
 Conclusion
-L'adaptabilité, c'est mon carburant. Chaque nouvelle technologie est une nouvelle aventure.`,
-      competences: ["Adaptabilité", "Apprentissage", "Résilience", "Curiosité", "Flexibilité"],
-      categorie: "Développement Personnel"
+La réussite d'un projet repose sur la capacité à créer du lien, à comprendre chaque perspective et à guider collectivement vers un objectif commun.`,
+      competences: ["Coordination", "Communication", "Gestion de projet", "Leadership"],
+      categorie: "Collaboration"
     },
     {
       id: 3,
-      titre: "Mon Parcours Vers le Leadership Technique",
-      resumeCourt: "Comment j'ai appris à inspirer et guider, au-delà du code.",
-      contenuComplet: `Le leadership technique, ce n'est pas être le plus fort, c'est être celui qui fait grandir les autres.
+      titre: "Communication Technique et Vulgarisation",
+      resumeCourt: "Transformer des concepts techniques complexes en récits compréhensibles pour des publics variés.",
+      contenuComplet: `Communiquer efficacement dans un environnement technologique est un art qui va bien au-delà de la maîtrise technique.
 
-Mes Premiers Pas
-Je ne suis pas né leader. J'ai appris, essayé, échoué, recommencé.
+Contexte
+Dans mes différentes missions, j'ai régulièrement été confronté au défi de faire comprendre des concepts techniques à des publics non-techniques : managers, clients, collaborateurs de différents services.
 
-Quand le Code Ne Suffit Plus
-Un jour, j'ai réalisé que mon rôle dépassait l'écriture de fonctions parfaites. Il s'agissait de :
-- Comprendre les motivations de chacun
-- Donner du sens au travail technique
-- Transformer des lignes de code en solutions
+Approche
+Ma stratégie de communication repose sur plusieurs piliers :
+- Écoute active
+- Adaptation du langage
+- Utilisation de métaphores et analogies
 
-Mes Méthodes
-- Des code reviews constructives
-- Des discussions techniques ouvertes
-- Valoriser chaque contribution, même petite
+Exemples Concrets
+- Expliquer Kubernetes comme un "chef d'orchestre de conteneurs"
+- Comparer une architecture microservices à une entreprise où chaque employé a une mission précise
+- Traduire des concepts techniques en bénéfices business
 
-Moments Clés
-Je me souviens d'un projet où personne ne croyait possible une migration complexe. En cassant ce projet en petites étapes, en montrant que chaque contribution comptait, on l'a réussi.
+Techniques de Vulgarisation
+- Utilisation de schémas et visualisations
+- Storytelling technique
+- Exemples concrets et pragmatiques
 
-Mes Apprentissages
-- L'écoute est un super pouvoir
-- La technique sans empathie ne mène nulle part
-- Un bon leader amplifie les talents, pas son ego
-
-Défis Personnels
-- Gérer des personnalités différentes
-- Maintenir la motivation
-- Donner une vision commune
-
-Ce Que Ça M'a Apporté
-- Confiance en moi
-- Respect de mes collègues
-- La satisfaction de voir des talents éclore
+Impact
+- Amélioration de la compréhension inter-équipes
+- Réduction des malentendus
+- Facilitation des prises de décision
 
 Conclusion
-Le vrai leadership technique, c'est transformer des collègues en héros de leur propre histoire.`,
-      competences: ["Leadership", "Mentorat", "Communication", "Motivation", "Vision Stratégique"],
-      categorie: "Leadership"
+La communication technique n'est pas un skill annexe, c'est un levier crucial de transformation et d'alignement organisationnel.`,
+      competences: ["Communication", "Vulgarisation", "Pédagogie", "Adaptabilité"],
+      categorie: "Communication"
     }
   ]
 
@@ -149,7 +148,7 @@ Le vrai leadership technique, c'est transformer des collègues en héros de leur
           className="text-center mb-16"
         >
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Compétences Humaines
+            Compétences Transverses
           </h2>
         </motion.div>
 
@@ -182,13 +181,13 @@ Le vrai leadership technique, c'est transformer des collègues en héros de leur
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {competence.competences.map((competence, index) => (
+                  {competence.competences.map((skill, index) => (
                     <span
                       key={index}
                       className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-800 
                                text-gray-700 dark:text-gray-300 rounded-full"
                     >
-                      {competence}
+                      {skill}
                     </span>
                   ))}
                 </div>

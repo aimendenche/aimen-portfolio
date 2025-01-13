@@ -109,7 +109,7 @@ export default function Hero() {
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={() => scrollToSection("projects")}
+                onClick={() => scrollToSection("realisations")}
                 className="px-8 py-4 bg-blue-600 text-white rounded-xl font-medium
                          hover:bg-blue-700 transition-all"
               >

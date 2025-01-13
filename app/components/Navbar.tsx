@@ -71,11 +71,11 @@ export default function Navbar() {
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 
                       dark:hover:text-white transition-colors"
             >
-              Expérience
+              Parcours
             </button>
 
             <button
-              onClick={() => scrollToSection("project")}
+              onClick={() => scrollToSection("realisations")}
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 
                       dark:hover:text-white transition-colors"
             >
@@ -91,11 +91,11 @@ export default function Navbar() {
             </button>
 
             <button
-              onClick={() => scrollToSection("softskills")}
+              onClick={() => scrollToSection("competences-humaines")}
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 
                       dark:hover:text-white transition-colors"
             >
-              Compétences Humaines
+              Compétences Transverses
             </button>
 
             <button
