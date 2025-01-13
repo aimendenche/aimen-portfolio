@@ -33,8 +33,8 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${isScrolled
-          ? "bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
+        ? "bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-lg"
+        : "bg-transparent"
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -75,7 +75,7 @@ export default function Navbar() {
             </button>
 
             <button
-              onClick={() => scrollToSection("projects")}
+              onClick={() => scrollToSection("realisation")}
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 
                       dark:hover:text-white transition-colors"
             >
