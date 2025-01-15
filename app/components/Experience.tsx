@@ -17,72 +17,78 @@ export default function Experience() {
     // Expériences Professionnelles
     {
       type: "Professionnel",
-      title: "Alternant DevOps Engineer",
-      establishment: "Credit Agricole GIP",
-      date: "2022 - Présent",
+      title: "Alternant Ingénieur Data ",
+      establishment: "Stirfar",
+      date: "Juin 2022 - Présent",
       description: [
-        "Administrateur Kubernetes",
-        "Mise en place d'infrastructures cloud",
-        "Automatisation des déploiements"
+        "Qualité et Gouvernance des données",
+        "Automatisation du flux de données ",
+        "Transformation(ETL)",
+        "Développement backend + intégration OAuth",
+        "Mise en place des couches de sécurité renforcées"
       ],
-      technologies: ["Kubernetes", "FluxCd", "GitLab", "OpenStack", "Vault", "Prometheus", "Grafana", "Go"]
+      technologies: ["Apache Spark", "Python", "SSO", "Airflow", "Elastic SLK", "postman", "Flask", "Nifi ETL"]
     },
+
     {
       type: "Professionnel",
-      title: "Stage DevOps Engineer",
-      establishment: "Credit Agricole GIP",
-      date: "2022 - 6 mois",
+      title: "Collaboration Avec Openmetadata",
+      establishment: "COLLATE",
+      date: "Novembre 2023- Mai 2024",
       description: [
-        "Administrateur Kubernetes",
-        "Développement d'outils d'automatisation",
-        "Support à l'infrastructure cloud"
+        "Installation et configuration d'OpenMetadata",
+        "Configuration du data lineage",
+        "Développement de connecteurs personnalisés"
       ],
-      technologies: ["Kubernetes", "FluxCd", "GitLab", "OpenStack", "Vault", "Prometheus", "Grafana", "Go"]
+      technologies: ["Openmetaata", "Postgresql", "S3", "Nifi", "Docker"]
     },
+
     {
       type: "Professionnel",
-      title: "Stage Software Engineer",
-      establishment: "BNA",
-      date: "2021 - 6 mois",
+      title: "Stagiaire Ingénieur DevOps",
+      establishment: "Direction Générale des finances publiques",
+      date: "Aout 2022 - Février 2023",
       description: [
-        "Conception d'un site web",
-        "Mise en place d'une base de données",
-        "Maintenance du site web"
+        "Contribution au développement d'un outil de restitution des données",
+        "Tests de charge et de performance.",
+        "Automatisation des flux de données entre les API de la DGFiP et Talend",
+        "Rédaction de la documentation technique."
       ],
-      technologies: ["Javascript", "CSS", "B2 Database", "Symfony"]
+      technologies: ["Ansible", "Git", "Docker", "Nubo", "Elastic ELK", "Jenkins"]
     },
+
     // Expériences Académiques
     {
       type: "Académique",
-      title: "Master en Informatique",
+      title: "Master Expert En Architecture des Systèmes d'informations",
       establishment: "ESIEA",
-      date: "2022 - Présent",
+      date: " Mars 2023 - Présent",
       description: [
-        "Spécialisation en DevOps et Cloud Computing",
-        "Projets avancés en développement logiciel",
-        "Recherche en technologies émergentes"
+        "Gestion et optimisation d'infrastructures cloud",
+        "Conduite de projets en systèmes d'information, du design à l'implémentation.",
+        "Évaluation des risques et réponse aux incidents de sécurité"
       ]
     },
     {
       type: "Académique",
-      title: "Licence en Informatique",
-      establishment: "ESIEA",
-      date: "2022",
+      title: "Bachelor Administrateur Systèmes & Réseaux",
+      establishment: "INTECH",
+      date: "Mars 2022 - Marss 2023",
       description: [
-        "Formation en développement logiciel",
-        "Réseaux",
-        "Bases de données et systèmes d'information"
+        "Conception et gestion des infrastructures",
+        "Gestion de la sécurité informatique",
+        "sécurisation des systèmes contre les menaces potentielles"
       ]
     },
     {
       type: "Académique",
       title: "Baccalauréat Scientifique",
-      establishment: "Technicum",
-      date: "2017",
+      establishment: "Ibn Badis",
+      date: "Séptembre 2017 - Aout 2018",
       description: [
-        "Mention Bien",
-        "Spécialité Mathématiques",
-        "Option Informatique"
+        "Mention  Trés Bien",
+        "Spécialité Scientifique",
+
       ]
     }
   ]

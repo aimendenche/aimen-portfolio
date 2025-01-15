@@ -48,7 +48,7 @@ export default function Navbar() {
               onClick={() => scrollToSection("hero")}
               className="text-xl font-bold text-gray-900 dark:text-white"
             >
-              YOUSNADJ Yanis
+              Aimen DENCHE
             </button>
           </motion.div>
 
@@ -71,7 +71,7 @@ export default function Navbar() {
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 
                       dark:hover:text-white transition-colors"
             >
-              Parcours
+              Mon parcours
             </button>
 
             <button

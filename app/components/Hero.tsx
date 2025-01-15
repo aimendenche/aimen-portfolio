@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function Hero() {
   // On garde un seul état pour le texte final
   const [text, setText] = useState("")
-  const finalText = "Cloud Native"
+  const finalText = "Qualité et Optimisation"
 
   // Effet modifié pour s'exécuter une seule fois
   useEffect(() => {
@@ -73,22 +73,22 @@ export default function Hero() {
               className="inline-flex items-center space-x-2 px-3 py-1 bg-blue-50 dark:bg-blue-900/30 
                        rounded-full"
             >
-              <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
-              <span className="text-blue-600 dark:text-blue-400 font-medium text-sm">
-                Ingénieur
+              <div className="w-2 h-2 rounded-full bg-purple-500 animate-pulse" />
+              <span className="text-purple-200 dark:text-blue-9000 font-medium text-sm">
+                DataOps
               </span>
             </motion.div>
 
             {/* Titre principal et description */}
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight">
-                Solutions
+                Ingénieur
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600 
-                              dark:from-blue-400 dark:to-indigo-400 px-3">
-                  DevOps
+                              dark:from-purple-600 dark:to-indigo-8800 px-3">
+                  Data
                 </span>
                 <br />
-                <span className="text-blue-600 dark:text-blue-400 min-h-[80px] block">
+                <span className="text-purple-600 dark:text-purple-8800 min-h-[80px] block">
                   {text}
                   {/* Le curseur clignotant ne s'affiche que pendant l'animation */}
                   {text.length < finalText.length && (
@@ -97,7 +97,7 @@ export default function Hero() {
                 </span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl leading-relaxed">
-                Infrastructure & DevOps passionné.
+                Les données ne mentent jamais, encore faut-il savoir les écouter.
               </p>
             </div>
 
@@ -110,10 +110,10 @@ export default function Hero() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={() => scrollToSection("realisations")}
-                className="px-8 py-4 bg-blue-600 text-white rounded-xl font-medium
-                         hover:bg-blue-700 transition-all"
+                className="px-8 py-4 bg-purple-600 text-white rounded-xl font-medium
+                         hover:bg-purple-700 transition-all"
               >
-                Découvrir mes projets
+                Explorez mes réalisations
               </motion.button>
 
               <motion.button
@@ -142,7 +142,7 @@ export default function Hero() {
 
               <div className="relative rounded-2xl overflow-hidden aspect-[3.5/4] max-w-sm mx-auto">
                 <Image
-                  src="/images/yanis.jpg"
+                  src="/images/photo.jpeg"
                   alt="Portrait professionnel"
                   width={600}
                   height={750}
@@ -156,13 +156,12 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-                className="absolute -bottom-4 right-4 bg-white dark:bg-gray-800 
-                         px-4 py-2 rounded-xl shadow-lg"
+
               >
                 <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+
                   <span className="text-sm font-medium text-gray-900 dark:text-white">
-                    Disponible
+
                   </span>
                 </div>
               </motion.div>

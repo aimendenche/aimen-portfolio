@@ -9,7 +9,7 @@ interface TechnicalSkill {
   resumeCourt: string
   contenuComplet: string  // Le contenu complet de l'article
   competences: string[]
-  categorie: "DevOps" | "Mobile" | "Cloud"
+  categorie: "Language de programmation" | "systèmes d'exploitation" | "ETL(Extract, Transform & Load)"
 }
 
 export default function TechnicalSkills() {
@@ -18,84 +18,124 @@ export default function TechnicalSkills() {
   const technicalSkills: TechnicalSkill[] = [
     {
       id: 1,
-      titre: "Performance Réseau pour Applications Mobiles",
-      resumeCourt: "La performance réseau est un facteur critique pour offrir une expérience utilisateur optimale dans les applications mobiles.",
-      contenuComplet: `La performance réseau est un facteur critique pour offrir une expérience utilisateur optimale dans les applications mobiles.
-Dans un environnement où les utilisateurs attendent des temps de réponse rapides, il est essentiel d'optimiser l'utilisation du réseau pour garantir la fluidité et la réactivité des applications, en particulier sur des plateformes comme React Native, qui permet de cibler à la fois iOS et Android.
+      titre: "Python",
+      resumeCourt: "Avec Python, on peut automatiser, analyser, développer et innover dans presque tous les domaines.",
+      contenuComplet: `Introduction à Python
+Python est le langage de programmation qui a le plus marqué mon parcours en IT. Grâce à sa simplicité et sa polyvalence, il m'a permis de m’attaquer à une variété de projets, qu'il s'agisse de développement web, d'analyse de données ou encore d’automatisation. C’est un langage que j’utilise quotidiennement pour résoudre des problèmes concrets de manière élégante.
+Ce que j'ai maîtrisé avec Python
+Avec Python, j’ai acquis une solide maîtrise dans plusieurs domaines clés. En utilisant des frameworks comme Flask et Django, j’ai pu construire des applications web robustes et scal- ables. Par exemple, j'ai récemment développé une API avec Flask qui interagissait avec une base de données pour permettre à des utilisateurs d’accéder à des données en temps réel, le tout de manière sécurisée.
+Dans le domaine de la data science, Python m'a permis de manipuler des données massives avec des bibliothèques comme Pandas et NumPy, où j'ai pu explorer, nettoyer et analyser des datasets complexes. La flexibilité de Python et la richesse de son écosystème m'ont permis d’automatiser des processus répétitifs et d’optimiser mon workflow de manière significative.
+Problèmes résolus grâce à Python
+Un des moments forts de mon expérience avec Python a été la résolution de défis liés à l'au- tomatisation des tâches répétitives. En entreprise, il y a souvent des processus manuels et chronophages qui peuvent être optimisés. Grâce à Python, j’ai pu écrire des scripts qui ont au- tomatisé ces processus, réduisant ainsi les erreurs humaines et augmentant la productivité.
+Dans mes projets de data engineering, j’ai utilisé Python pour gérer le traitement de données volumineuses. Par exemple, j’ai automatisé des processus d’extraction, de transformation, et de chargement (ETL) pour préparer les données à des fins d’analyse.
+Qu'est-ce que Flask et Django ?
+Flask est un micro-framework Python très léger, parfait pour construire des applications web simples ou des APIs. Il est extrêmement flexible et me permet de démarrer des projets rapide- ment tout en ayant un contrôle total sur les composants.
+Django, en revanche, est un framework web complet. Il offre une structure robuste pour des projets à plus grande échelle, notamment grâce à son ORM (Object-Relational Mapping), ses modules d'authentification, et sa capacité à gérer des bases de données complexes. J’utilise Django lorsque j'ai besoin de solutions plus puissantes et structurées.
+Impact de Python dans mon parcours IT
+Python n’est pas juste un langage que j'utilise, c'est un élément central dans ma manière d’aborder les projets. Il m’a permis de développer des solutions rapidement, tout en restant flexible pour m’adapter aux différents besoins des projets. C’est ce qui m'a aidé à m'impliquer dans des projets variés, allant du développement web à l’analyse de données en passant par l’automatisation.
+Ce qui m'a le plus marqué avec Python, c'est sa capacité à s'adapter à presque tous les do- maines de l'IT. C'est un langage que je peux utiliser aussi bien pour des tâches de back-end que pour des analyses de données avancées, ce qui en fait un atout essentiel pour un ingénieur en data comme moi.
+Vision pour l’avenir avec Python
+Dans les années à venir, je compte continuer à exploiter Python dans des domaines comme
+l’intelligence artificielle et l’apprentissage automatique. Ces technologies sont de plus en plus importantes, et Python, avec des frameworks comme TensorFlow et PyTorch, offre une excellente base pour se lancer dans ces projets.
+Je souhaite également approfondir l'automatisation à grande échelle, en explorant des outils comme Ansible ou Airflow, où Python joue un rôle clé. En combinant ces technologies avec ma maîtrise de Python, je suis convaincu que je pourrai relever de nouveaux défis dans le do- maine du data engineering et de l’IA.`,
 
-Expertise en Performance Réseau
-
-La maîtrise des performances réseau passe par une compréhension approfondie des protocoles de communication, des latences et des temps de réponse. Par exemple, dans une application React Native que j'ai développée, j'ai optimisé l'utilisation des requêtes HTTP en utilisant des mécanismes tels que la compression des réponses et la gestion des erreurs pour minimiser l'impact des interruptions de réseau. Cela a permis de réduire les latences perçues 20% lors des transitions entre les écrans.
-
-Optimisation des Appels Réseau
-
-L'un des objectifs principaux dans une application mobile est de réduire le nombre d'appels réseau tout en garantissant une expérience fluide. Dans une application React Native, voici quelques techniques que j'ai mises en œuvre :
-
-1. Mise en cache des données : En intégrant un système de cache côté client (par exemple avec AsyncStorage), j'ai permis à l'application de stocker localement les données fréquemment utilisées, réduisant ainsi le besoin d'effectuer des appels répétés au serveur, cette stratégie a permis de réduire de 40% le nombre de requêtes au serveur lors de l'utilisation d'une fonctionnalité spécifique.
-
-2. Réduction des appels réseau : Dans un projet où l'application interrogeait fréquemment une API distante pour obtenir des informations utilisateur, j'ai implémenté une logique qui évitait de faire des appels inutiles. Par exemple, en utilisant un système de "debouncing" pour les appels de recherche en temps réel, j'ai limité les appels réseau à un par seconde, ce qui a amélioré de manière significative la réactivité de l'interface utilisateur tout en réduisant la charge serveur.
-
-Stratégies d'Optimisation
-
-Voici des stratégies spécifiques que j'ai appliquées pour améliorer la performance réseau des applications React Native :
-
-- Compression des réponses réseau : En activant la compression des réponses côté serveur, j'ai réduit le volume de données transférées, ce qui a directement contribué à améliorer la vitesse de chargement dans l'application. Cela a été particulièrement utile lors du téléchargement de ressources multimédia lourdes.
-
-- Lazy Loading et Code Splitting : J'ai utilisé des techniques de "lazy loading" et de "code splitting" dans le contexte de React Native pour ne charger que les ressources nécessaires au moment de l'utilisation. Par exemple, lors de l'accès à une section de l'application nécessitant des données spécifiques, le contenu n'était récupéré qu'à ce moment-là, évitant ainsi de charger des ressources inutiles dès le lancement de l'application.
-
-Surveillance et Analyse
-
-La surveillance continue des performances réseau est essentielle pour garantir la stabilité d'une application React Native.
-En utilisant des outils comme Flipper et React Native Devtools, j'ai pu analyser en temps réel le comportement des requêtes réseau, détecter des goulets d'étranglement, et identifier les points de latence. Cela m'a permis d'ajuster dynamiquement les paramètres d'appel réseau et d'appliquer des corrections en temps réel.
-
-Conclusion
-
-Grâce à une combinaison de ces stratégies et à l'utilisation d'outils adaptés à React Native, j'ai pu optimiser la performance réseau des applications mobiles, assurant ainsi une expérience utilisateur fluide et réactive. Les techniques telles que la mise en cache et la compression des données sont des leviers puissants que j'ai appliqués avec succès dans mes projets.`,
-      competences: ["React Native", "Performance", "Optimisation réseau", "Caching", "Monitoring"],
-      categorie: "Mobile"
+      competences: ["Python", "Pandas", "Flask", "ETL", "Automation"],
+      categorie: "Language de programmation"
     },
     {
       id: 2,
-      titre: "Administration et Orchestration Kubernetes",
-      resumeCourt: "L'orchestration de conteneurs est un élément fondamental pour assurer la fiabilité et la scalabilité des applications modernes.",
-      contenuComplet: `L'orchestration de conteneurs est un élément fondamental pour assurer la fiabilité et la scalabilité des applications modernes. Dans un environnement où la haute disponibilité est cruciale, il est essentiel de maîtriser l'administration Kubernetes pour garantir la stabilité des services, en particulier dans des infrastructures complexes gérant de multiples applications et environnements.
+      titre: "Linux",
+      resumeCourt: "Avec Linux, on peut gérer des systèmes, sécuriser des serveurs et automatiser des environnements grâce à sa flexibilité et sa puissance.",
+      contenuComplet: `ntroduction à Linux
 
-Expertise en Administration Kubernetes
+Depuis que j'ai commencé à travailler dans le domaine de l'IT, Linux est devenu un élément central de mon environnement professionnel. Il ne s’agit pas seulement d’un système d’ex- ploitation, mais d’une plateforme sur laquelle je m’appuie pour accomplir pratiquement toutes mes tâches, que ce soit pour l'administration des serveurs, le déploiement d'applications, ou l’automatisation des processus. Sa flexibilité et sa puissance en font un outil incontournable dans mon travail quotidien.
+Pourquoi Linux est mon choix principal
+La raison pour laquelle je préfère Linux réside dans sa stabilité, sa sécurité, et ses perfor- mances. Que je travaille avec des distributions comme Ubuntu, CentOS, ou Red Hat, Linux me permet de gérer des environnements serveurs complexes avec un contrôle total. Chaque commande, chaque configuration me donne un accès direct aux ressources du système, ce qui me permet de diagnostiquer et de résoudre rapidement les problèmes.
+De plus, dans le monde du DevOps et du Data Engineering, Linux est omniprésent. Il est au cœur des infrastructures modernes, que ce soit dans le cloud ou sur des serveurs on-premise. C’est un outil universel qui s’adapte parfaitement aux besoins de performance et de sécurité dans les environnements de production.
+Mes compétences avec Linux
+Au fil du temps, j'ai développé une expertise approfondie en administration système avec Linux. Voici quelques-unes des tâches que je maîtrise :
+ Gestion des services : Configurer, démarrer, et surveiller des services comme Nginx, Apache, et PostgreSQL pour s'assurer que les applications fonctionnent de manière optimale.
 
-La maîtrise de Kubernetes nécessite une compréhension approfondie de son architecture, de ses composants et de ses mécanismes de contrôle. Par exemple, dans une infrastructure multi-cluster que j'ai administrée, j'ai optimisé la configuration des control planes et des worker nodes en implémentant des stratégies de haute disponibilité et de répartition de charge. Cette optimisation a permis d'atteindre un taux de disponibilité de 99.99% sur l'ensemble de nos services critiques.
+ Automatisation : L’utilisation de scripts shell et de cron jobs me permet d'automa- tiser des tâches critiques, telles que la gestion des backups, les mises à jour système, et le déploiement de nouvelles versions d’applications.
 
-Optimisation des Ressources Cluster
+ Gestion des utilisateurs et permissions : La gestion fine des utilisateurs et des per- missions est cruciale dans tout environnement Linux. Je configure les groupes et les droits d’accès pour garantir que seuls les utilisateurs autorisés puissent accéder aux ressources critiques du système.
+Linux dans mes projets quotidiens
+Chaque projet sur lequel je travaille, qu'il s'agisse de Data Engineering, de DevOps, ou de déploiement d'applications, implique une utilisation intensive de Linux. Par exemple, lorsque je configure des serveurs pour héberger des bases de données comme PostgreSQL ou des services web avec Nginx, Linux me permet d’administrer ces systèmes de manière fluide et sécurisée.
+Lors de la mise en place de pipelines de données, je me repose sur Linux pour assurer l'in- tégrité et la sécurité des flux de données. Avec des outils comme Ansible, je peux automatiser la configuration de serveurs Linux pour qu'ils s'adaptent aux besoins des projets. Cette autom- atisation réduit considérablement le temps et les efforts nécessaires pour maintenir un envi- ronnement de production.
+Problèmes résolus grâce à Linux
+J'ai souvent été confronté à des défis où la performance et la sécurité étaient primordiales. Par exemple, sur un projet récent, un serveur sous charge importante avait des problèmes de per- formance. Grâce à des outils comme htop et netstat, j'ai pu identifier la source du problème et ajuster les configurations pour optimiser les ressources système. Résultat : une amélioration significative des performances et une meilleure stabilité.
+J’ai également dû sécuriser des serveurs contre des attaques potentielles. En utilisant des solu- tions comme Fail2Ban pour bloquer les IP suspectes et iptables pour filtrer le trafic réseau, j’ai pu renforcer la sécurité tout en assurant la disponibilité des services critiques.
+Pourquoi Linux continue de m’inspirer
+Ce qui me fascine toujours avec Linux, c’est son aspect communautaire et open-source. Il y a toujours une solution à découvrir, un script à améliorer, ou une nouvelle méthode à expéri- menter. La documentation abondante et les forums de support en ligne rendent l’apprentissage continu et enrichissant. Ce côté collaboratif fait de Linux non seulement un outil technique, mais aussi un environnement de travail où l’innovation est constante.
+Vision future avec Linux
+Dans les années à venir, je compte continuer à utiliser Linux pour automatiser encore plus d’infrastructures et améliorer la gestion des systèmes à grande échelle. Je suis par- ticulièrement intéressé par l'intégration de Linux avec des solutions de conteneurs comme Docker et des orchestrateurs comme Kubernetes pour gérer des environnements complexes de manière encore plus efficace.`,
 
-L'un des objectifs principaux dans l'administration Kubernetes est d'optimiser l'utilisation des ressources tout en garantissant la stabilité. Voici quelques techniques que j'ai mises en œuvre :
+      competences: ["Linux", "Os", "Sécurité", "Automatisation", "Administration"],
+      categorie: "systèmes d'exploitation"
+    },
 
-1. Gestion avancée des resources requests/limits : En implémentant une stratégie fine de définition des ressources par pod, j'ai permis une meilleure utilisation de la capacité cluster, réduisant ainsi les coûts d'infrastructure de 30% tout en maintenant les performances optimales des applications.
+    {
+      id: 3,
+      titre: "Apache nifi",
+      resumeCourt: "Apache NiFi : Simplifiez vos flux de données, sécurisez vos pipelines.",
+      contenuComplet: `Depuis que j’ai commencé à travailler avec des pipelines de données, Apache NiFi est rapidement devenu un outil clé dans ma boîte à outils. NiFi, pour moi, n’est pas qu’un simple ETL (Extract, Transform, Load), mais une plateforme puissante qui facilite la gestion des flux de données en temps réel, tout en offrant une flexibilité et une simplicité d’utilisation incomparables.
+Qu’est-ce qu’Apache NiFi ?
 
-2. Optimisation du scheduling : Dans un environnement où plusieurs équipes partageaient les ressources cluster, j'ai mis en place un système sophistiqué de node affinity et de taints/tolerations. Cette approche a permis d'optimiser le placement des charges de travail et d'améliorer de manière significative l'utilisation des ressources tout en respectant les contraintes de isolation.
+Apache NiFi est un outil open-source conçu pour automatiser le mouvement des données entre différents systèmes. Il permet de collecter, transformer, et transférer des données de manière visuelle grâce à une interface graphique intuitive. Ce qui rend NiFi unique, c’est sa capacité à gérer les flux de données complexes avec des fonctionnalités comme :
 
-Stratégies d'Administration
+    Gestion en temps réel : Idéal pour les pipelines nécessitant une faible latence.
+    Évolutivité : Parfait pour des systèmes allant de petites infrastructures locales à des environnements distribués massifs.
+    Contrôle de flux : Grâce à des processeurs configurables, on peut surveiller et contrôler chaque étape du pipeline.
 
-Voici des stratégies spécifiques que j'ai appliquées pour améliorer la gestion des clusters Kubernetes :
+Pourquoi Apache NiFi est mon choix privilégié
 
-- Automatisation des déploiements : En développant des opérateurs Kubernetes personnalisés, j'ai automatisé les tâches d'administration récurrentes, ce qui a directement contribué à réduire les erreurs humaines et à accélérer les déploiements. Cette automatisation a été particulièrement efficace pour la gestion des mises à jour et des rollbacks.
+L’un des plus grands avantages de NiFi est sa simplicité visuelle. On peut littéralement “dessiner” un pipeline en glissant-déposant des composants, ce qui rend la gestion des flux de données accessible même aux non-développeurs. Mais ne vous y trompez pas, sous cette simplicité se cache une puissance énorme.
 
-- Gestion avancée de la configuration : J'ai implémenté une approche GitOps utilisant Flux CD pour la gestion des configurations, permettant un contrôle précis des déploiements et une traçabilité complète des changements. Cette méthode a permis de réduire de 60% le temps nécessaire aux déploiements tout en renforçant la fiabilité.
+Avec NiFi, j’ai pu intégrer des sources de données diverses (bases SQL, fichiers CSV, API, stockage cloud) dans un pipeline unique, tout en appliquant des transformations avancées. Ce qui me plaît particulièrement, c’est son focus sur la sécurité avec des options comme le chiffrement SSL et la gestion fine des permissions.
+Où utilise-t-on Apache NiFi ?
 
-Surveillance et Analyse
+On retrouve NiFi dans plusieurs domaines :
 
-La surveillance continue des clusters Kubernetes est cruciale pour maintenir la stabilité des environnements de production. En utilisant des outils comme Prometheus et Grafana, j'ai mis en place un système complet de monitoring qui permet de :
-- Suivre en temps réel les métriques clés du cluster
-- Détecter proactivement les anomalies
-- Analyser les tendances d'utilisation des ressources
-- Optimiser continuellement les performances
+    Data Engineering : Pour construire des pipelines ETL robustes et automatisés.
+    IoT : Collecte et transformation des données provenant de capteurs en temps réel.
+    Big Data : Intégration avec Hadoop, Kafka, ou Elasticsearch pour traiter des volumes massifs de données.
+    Cloud et on-premise : Que ce soit sur AWS, Azure, ou dans des infrastructures locales, NiFi s’adapte parfaitement.
 
-Cette approche m'a permis d'identifier et de résoudre les problèmes avant qu'ils n'impactent les utilisateurs finaux.
+Ce que j’ai appris avec NiFi
 
-Conclusion
+Au fil des projets, NiFi m’a appris à penser en termes de flux de données :
 
-Grâce à la mise en place de ces stratégies d'administration Kubernetes et à l'utilisation d'outils spécialisés, j'ai pu garantir une gestion efficace et fiable des environnements conteneurisés. Les techniques d'automatisation et de monitoring avancé sont des éléments clés que j'ai utilisés avec succès pour maintenir des services hautement disponibles et performants.`,
-      competences: ["Kubernetes", "Docker", "Prometheus", "Grafana", "GitOps", "FluxCD"],
-      categorie: "DevOps"
-    }
+    Flexibilité des pipelines : J’ai appris à concevoir des flux adaptatifs, capables de gérer des cas d’erreurs sans interrompre tout le processus.
+    Optimisation des performances : En configurant les processeurs et en utilisant des files d’attente adaptées, j’ai pu maximiser la rapidité de traitement tout en minimisant les ressources nécessaires.
+    Monitoring avancé : Grâce aux outils intégrés, j’ai développé une expertise dans la surveillance des flux en temps réel pour détecter rapidement les anomalies.
+
+Un exemple marquant : lors d’un projet, j’ai intégré NiFi avec Apache Kafka pour créer un pipeline de données en temps réel qui synchronisait des millions d’événements entre plusieurs systèmes tout en garantissant leur transformation et leur livraison en temps voulu.
+Avantages d’Apache NiFi
+
+    Interface intuitive : Une prise en main rapide avec une interface visuelle.
+    Sécurité intégrée : Chiffrement des données en transit et gestion fine des accès.
+    Évolutivité : Capable de s’adapter à des infrastructures de petite ou grande taille.
+    Large compatibilité : Prise en charge d’un grand nombre de connecteurs et de formats de données.
+
+Problèmes résolus grâce à NiFi
+
+Un exemple concret : lors d’un projet où les données d’un client étaient réparties sur plusieurs systèmes, le défi était d’unifier ces données sans perturber les processus en cours. Avec NiFi, j’ai créé un pipeline qui collectait les données depuis plusieurs bases SQL et fichiers JSON, les transformait pour les uniformiser, et les envoyait à une base Elasticsearch.
+
+J’ai également pu résoudre des problèmes liés à la latence grâce à des configurations optimisées des processeurs et des files d’attente. Résultat : une amélioration significative de la performance et de la fiabilité du système.
+Pourquoi Apache NiFi continue de m’inspirer
+
+Ce que j’aime avec NiFi, c’est qu’il évolue constamment. La communauté open-source derrière l’outil est très active, et il y a toujours de nouvelles fonctionnalités à explorer. La simplicité qu’il apporte dans des tâches complexes est fascinante, et c’est un outil qui me donne envie de toujours repousser les limites de ce qu’un pipeline peut accomplir.
+Vision future avec NiFi
+
+À l’avenir, je souhaite approfondir l’intégration de NiFi avec des technologies comme Kubernetes pour orchestrer des pipelines encore plus complexes et dynamiques. J’aimerais également explorer davantage l’utilisation de NiFi dans des environnements IoT pour traiter des données en temps réel issues de capteurs connectés.
+
+Enfin, je vois une opportunité de combiner NiFi avec des solutions d’intelligence artificielle pour enrichir les données en temps réel, ouvrant la voie à des pipelines de données intelligents.
+
+Apache NiFi n’est pas juste un outil pour moi, c’est une façon de simplifier l’ingestion et la gestion des données tout en rendant chaque projet plus efficace et innovant.`,
+
+      competences: ["Nifi", "Apache", "ETL", "Automaatisation", "S3"],
+      categorie: "ETL(Extract, Transform & Load)"
+    },
   ]
 
   return (

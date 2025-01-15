@@ -80,7 +80,7 @@ export default function Contact() {
             Me Contacter
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            N&apos;hésitez pas à me contacter pour discuter de vos projets ou opportunités.
+            Contactez-moi pour vos projets ou opportunités !.
           </p>
         </motion.div>
 
@@ -104,7 +104,7 @@ export default function Contact() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span>yanisyousnadj@gmail.com</span>
+                <span>aimen.denche18@gmail.com</span>
               </div>
 
               <div className="flex items-center space-x-4 text-gray-600 dark:text-gray-300">
@@ -124,7 +124,7 @@ export default function Contact() {
                   <circle cx="4" cy="4" r="2" stroke="currentColor" strokeWidth={2} />
                 </svg>
                 <a
-                  href="https://linkedin.com/in/votre-profil"
+                  href="https://www.linkedin.com/in/aimen-denche/"
                   className="hover:text-blue-600 dark:hover:text-blue-400"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -210,9 +210,9 @@ export default function Contact() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 type="submit"
-                className="w-full px-6 py-3 text-white bg-blue-600 rounded-lg
-                         hover:bg-blue-700 transition-colors duration-200
-                         focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                className="w-full px-6 py-3 text-white bg-purple-600 rounded-lg
+                         hover:bg-purple-700 transition-colors duration-200
+                         focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
               >
                 Envoyer
               </motion.button>

@@ -9,7 +9,7 @@ interface CompetenceHumaine {
   resumeCourt: string
   contenuComplet: string
   competences: string[]
-  categorie: "Analyse" | "Communication" | "Collaboration"
+  categorie: "Analyse" | "organisationnelles " | "Collaboration"
 }
 
 export default function CompetencesHumaines() {
@@ -18,67 +18,44 @@ export default function CompetencesHumaines() {
   const competencesHumaines: CompetenceHumaine[] = [
     {
       id: 1,
-      titre: "Analyse de l'Environnement Technologique",
-      resumeCourt: "Évaluation comparative approfondie des solutions techniques pour répondre aux besoins spécifiques d'une organisation.",
-      contenuComplet: `La Nécessité de l'Analyse Technologique
+      titre: "Résolution de Problèmes",
+      resumeCourt: "Transformer les Défis Techniques en Succès.",
+      contenuComplet: `La résolution de problèmes n'est pas qu'une compétence technique ; c'est une philosophie que j'ai adoptée tout au long de mon parcours. En tant qu'alternant, j’ai souvent été confronté à des situations où il n’existait pas de solutions toutes faites. Cela m’a appris à être résilient, créatif et méthodique, des qualités essentielles dans un monde technologique en constante évolution.
 
-La capacité d'analyse technologique est un atout crucial dans le monde numérique en constante évolution. Ma dernière mission illustre parfaitement cette compétence stratégique.
+Un Incident Marquant : Rétablir un Service Critique
+Une situation m’a particulièrement marqué. Un jour, un client a signalé une panne critique ayant mis son système hors service. La situation était urgente, car chaque minute d’indisponibilité engendrait des pertes financières importantes. Bien que je n’aie pas immédiatement les réponses, j'ai adopté une approche structurée :
 
-Kubernetes vs OpenShift :
+    Analyse et Diagnostic : J’ai rapidement parcouru les journaux système pour identifier des erreurs spécifiques et leurs causes probables.
+    Recherche et Apprentissage : J’ai consulté des forums techniques, des documentations et même des anciens projets pour trouver des pistes de solution.
+    Action et Résolution : Après plusieurs essais et ajustements, j’ai corrigé le problème et rétabli le service en moins de trois heures.
 
-Lors d'un projet de transformation digitale, j'ai été chargé de comparer deux solutions majeures d'orchestration de conteneurs : Kubernetes et OpenShift. L'objectif était de trouver l'infrastructure la plus adaptée aux besoins spécifiques de l'entreprise.
+Leçons et Vision Future
+Cette expérience m’a enseigné à voir les problèmes non pas comme des obstacles, mais comme des opportunités d’apprentissage. À l’avenir, je souhaite approfondir mes compétences en diagnostic prédictif en exploitant des outils d’observabilité avancés comme Prometheus et Grafana, et intégrer l’IA pour anticiper les pannes avant qu’elles ne surviennent.`,
 
-Méthodologie :
-
-Ma démarche a commencé par une définition rigoureuse des critères d'évaluation. J'ai identifié des paramètres clés tels que les fonctionnalités de déploiement, la gestion des ressources, les mécanismes de sécurité, les capacités de scalabilité et les coûts d'implémentation. Cette approche méthodique m'a permis de structurer une analyse objective et exhaustive.
-
-Sources et Collecte d'Information :
-
-La collecte d'informations a été cruciale. J'ai multiplié les sources : documentation officielle, études de cas, retours d'expérience d'utilisateurs et entretiens avec des experts techniques. Chaque source m'a apporté un éclairage différent, enrichissant ma compréhension des deux plateformes.
-
-
-Les échanges avec les experts ont révélé des dimensions souvent négligées. La facilité d'intégration avec les systèmes existants, la qualité du support technique et l'adéquation avec l'écosystème technologique du client sont devenues des critères déterminants de mon analyse.
-
-Construction d'une Matrice Comparative :
-
-J'ai ensuite construit une matrice comparative détaillée, mettant en lumière les points forts et les limitations de chaque solution. Cette approche m'a permis de dépasser une simple comparaison technique pour proposer une recommandation stratégique alignée avec les objectifs business du client.
-
-
-Ma recommandation finale a intégré des paramètres complexes : contraintes budgétaires, capacités de montée en charge, complexité d'implémentation et perspectives d'évolution technologique. L'objectif était de proposer une solution qui ne réponde pas seulement aux besoins actuels, mais anticipe les défis futurs.
-
-Conclusion : 
-
-Cette mission m'a permis de démontrer ma capacité à transformer des analyses techniques complexes en recommandations stratégiques concrètes, en plaçant les besoins réels du client au cœur de ma démarche.`,
-      competences: ["Analyse comparative", "Évaluation technique", "Recherche", "Recommandation stratégique"],
+      competences: ["Analyse et synthèse", "Prise de décision rapide", "Recherche", "Adaptabilité face aux imprévus"],
       categorie: "Analyse"
     },
     {
-      id: 3,
-      titre: "Communication Technique et Vulgarisation",
-      resumeCourt: "Transformer des concepts techniques complexes en récits compréhensibles pour des publics variés.",
-      contenuComplet: `Au-Delà du Jargon Technique
+      id: 2,
+      titre: "Gestion du Temps",
+      resumeCourt: "Organiser mon temps pour tout faire sans être débordé.",
+      contenuComplet: `La gestion du temps est une autre compétence clé que j'ai développée au fil de mon parcours, que ce soit pour respecter les délais de projets complexes ou pour équilibrer mes responsabilités professionnelles et personnelles.
 
-La communication technique n'est pas un simple transfert d'informations, c'est un véritable art de transformation qui permet de rendre accessibles des concepts complexes.
+Un Défi Initial : Organisation et Productivité
+Au début de mon alternance, j'avais du mal à jongler entre les tâches difficiles, les délais serrés et ma vie quotidienne. Cependant, avec de la persévérance et une amélioration continue, j'ai appris à structurer mon travail efficacement :
 
-Le Défi de la Vulgarisation
+    Planification Stratégique : J'ai commencé à utiliser des outils comme Trello et des plannings hebdomadaires pour prioriser mes tâches.
+    Optimisation du Temps : J'ai fractionné les tâches complexes en étapes plus petites et gérables, ce qui m'a permis de progresser régulièrement sans être submergé.
+    Équilibre Personnel : Habitant seul, j'ai appris à m'occuper des tâches ménagères, à faire les courses, à cuisiner et même à voyager tout en respectant mes engagements professionnels.
 
-Au fil de mon parcours, j'ai régulièrement été confronté au défi de faire comprendre des concepts techniques à des publics non-techniques : managers, clients, collaborateurs de différents services. Chaque fois, j'ai vu la complexité technique devenir un obstacle à la compréhension mutuelle.
+Un Exemple Concret : Respect des Délais pour un Projet Clé
+Lors d'un projet critique impliquant l'automatisation d'un pipeline de données, le délai était extrêmement serré. Grâce à une planification rigoureuse et une exécution disciplinée, j'ai pu livrer le projet à temps, tout en maintenant la qualité des livrables.
 
-Ma stratégie de communication a toujours reposé sur trois piliers fondamentaux : l'écoute active, l'adaptation du langage et l'utilisation de métaphores éclairantes. L'objectif n'est jamais de paraître intelligent, mais de faire comprendre.
+Leçons Apprises
+Cette expérience m'a montré que la gestion du temps ne se limite pas à respecter les délais professionnels, mais qu'elle implique également de structurer sa vie de manière équilibrée. Aujourd'hui, je suis capable de gérer efficacement des tâches multiples, tout en prenant soin de moi et en profitant de moments personnels.`,
 
-Techniques de Vulgarisation 
-
-Les techniques de vulgarisation que j'ai développées vont au-delà du langage. J'utilise des schémas, des visualisations, et surtout des exemples pragmatiques qui résonnent avec l'expérience de mon interlocuteur. Le but est de créer un pont entre le monde technique et le monde opérationnel.
-
-Impact et Bénéfices de la Communication
-
-Les bénéfices de cette approche sont multiples. J'ai observé une amélioration significative de la compréhension inter-équipes, une réduction des malentendus et une facilitation des prises de décision. Quand les techniciens et les décideurs parlent le même langage, la magie opère.
-
-Conclusion : 
-
-Plus qu'une compétence, je considère la communication technique comme un véritable levier de transformation organisationnelle. C'est l'art de transformer la complexité technique en opportunité de collaboration et d'innovation.`,
-      competences: ["Communication", "Vulgarisation", "Pédagogie", "Adaptabilité"],
-      categorie: "Communication"
+      competences: ["Discipline personnelle", "Résistance au stress", "Pédagogie", "Planification et organisation"],
+      categorie: "organisationnelles "
     }
   ]
 
