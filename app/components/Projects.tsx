@@ -9,7 +9,7 @@ interface Realisation {
   resumeCourt: string
   contenuComplet: string
   competences: string[]
-  categorie: "Data" | "Python" | "Openmetadata" | "optimisaiton & Qualité"
+  categorie: "Data" | "Python" | "Openmetadata" | "optimisaiton & Qualité" | "Catalogue de données" | "SSO"
 }
 
 export default function Realisations() {
