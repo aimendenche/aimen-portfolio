@@ -120,21 +120,23 @@ export default function About() {
 
             {/* Description principale */}
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
-              <p className="text-lg leading-relaxed">
-  Passionné par les échanges et les rencontres. <br />
-  J’aime découvrir, apprendre et surtout partager. <br />
-  Si je ne suis pas en train de coder ou de résoudre des défis techniques, <br />
-  vous me trouverez probablement en train de réaliser un documentaire <br />
-  sur un pays que je visite, ou d&apos;explorer de nouvelles cultures. <br />
-  <br />
-  Chaque expérience m’enrichit, chaque interaction m’inspire. <br />
-  Je crois que ce que l’on vit, ce que l’on ressent, <br />
-  et les personnes que l’on croise façonnent qui nous sommes. <br />
-  Ces moments et découvertes me motivent à avancer, à créer, <br />
-  et à donner le meilleur de moi-même dans tout ce que j’entreprends. <br />
-  <br />
-  Voilà, c’est moi, simplement.
-</p>
+            <p className="text-lg leading-relaxed">
+            Passionné par les échanges et les rencontres. <br />
+            J&apos;aime découvrir, apprendre et surtout partager. <br />
+            Si je ne suis pas en train de coder ou de résoudre des défis techniques, <br />
+            vous me trouverez probablement en train de réaliser un documentaire <br />
+            sur un pays que je visite, ou d&apos;explorer de nouvelles cultures. <br />
+            <br />
+            Chaque expérience m&apos;enrichit, chaque interaction m&apos;inspire. <br />
+            Je crois que ce que l&apos;on vit, ce que l&apos;on ressent, <br />
+            et les personnes que l&apos;on croise façonnent qui nous sommes. <br />
+            Ces moments et découvertes me motivent à avancer, à créer, <br />
+            et à donner le meilleur de moi-même dans tout ce que j&apos;entreprends. <br />
+            <br />
+            Voilà, c’est moi, simplement.
+  </p>
+</div>
+
             </div>
           </motion.div>
         </motion.div>
