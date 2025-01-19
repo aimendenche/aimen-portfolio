@@ -9,7 +9,7 @@ interface CompetenceHumaine {
   resumeCourt: string
   contenuComplet: string
   competences: string[]
-  categorie: "Analyse" | "organisationnelles " | "Collaboration"
+  categorie: "Analyse" | "organisationnelles " | "Collaboration" | "sociales"
 }
 
 export default function CompetencesHumaines() {
@@ -56,6 +56,30 @@ Cette expérience m'a montré que la gestion du temps ne se limite pas à respec
 
       competences: ["Discipline personnelle", "Résistance au stress", "Pédagogie", "Planification et organisation"],
       categorie: "organisationnelles "
+    },
+{
+      id: 3,
+      titre: "Entraide",
+      resumeCourt: "Favoriser la collaboration et le soutien mutuel dans tous les aspects de la vie.",
+      contenuComplet: `L'entraide est une valeur essentielle qui dépasse le cadre professionnel pour toucher chaque aspect de la vie quotidienne. Elle constitue la base d'une collaboration efficace et d'une société solidaire.
+
+Entraide dans l'IT : Partage et Collaboration
+Dans mes projets IT, j'ai souvent constaté que le travail d'équipe est indispensable pour surmonter les défis techniques. Par exemple, lors de l'implémentation d'un pipeline de données complexe, j'ai collaboré étroitement avec dex collègues externes en partageant des idées et des solutions. Cette synergie a permis non seulement de livrer un projet performant, mais aussi de renforcer notre cohésion d'équipe.
+
+Soutien dans le Quotidien : Aider et Inspirer
+Dans ma vie personnelle, j'essaie d'apporter mon aide dès que l'opportunité se présente. Par exemple, lorsque mes amis arrivent en France, je les accompagne pour faire leurs démarches administratives, comme l'inscription à l'université ou l'obtention de leur carte de séjour. J'aime également sensibiliser mon entourage sur des sujets comme la protection de l'environnement en partageant des idées et des astuces sur les réseaux sociaux.
+
+Un Exemple Pratique : Aider ma Famille et ma Communauté
+Ma famille et mes proches savent qu'ils peuvent compter sur moi, que ce soit pour organiser un événement, expliquer une démarche administrative complexe ou simplement écouter lorsqu'ils traversent des moments difficiles. Ces gestes, bien que modestes, me motivent à faire davantage.
+
+Une Vision d'Avenir : Créer des Opportunités d'Entraide
+L'entraide m'a appris que chaque acte, petit ou grand, peut avoir un impact significatif. Je souhaite continuer à m'investir dans des initiatives collaboratives, comme des ateliers de codage, des campagnes de sensibilisation ou même des projets communautaires. Trouver des moyens d'aider les autres m'apporte une grande satisfaction et m'encourage à aller plus loin.
+
+Leçons Apprises et Vision
+L'entraide m'a enseigné que le succès individuel est souvent lié à la capacité à travailler en équipe et à soutenir les autres. Dans le futur, je souhaite continuer à promouvoir cette valeur en créant des environnements collaboratifs, tant dans ma carrière que dans ma vie personnelle.`,
+
+      competences: ["Empathie", "Communication", "Travail d'équipe", "Soutien mutuel"],
+      categorie: "Sociales"
     }
   ]
 

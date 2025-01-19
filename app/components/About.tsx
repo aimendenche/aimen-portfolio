@@ -121,13 +121,19 @@ export default function About() {
             {/* Description principale */}
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
               <p className="text-lg leading-relaxed">
-                Passionné par les échanges et les rencontres, j’aime découvrir,
-                apprendre, et surtout partager. Chaque expérience m’enrichit,
-                chaque interaction m’inspire. Je crois que ce qu’on vit, ce
-                qu’on ressent, et les personnes qu’on croise construisent qui on
-                est. Et c’est ça qui me pousse à avancer, à créer, et à donner
-                le meilleur de moi-même dans tout ce que je fais. Voilà, c’est
-                moi, simplement.
+                Passionné par les échanges et les rencontres. <br />
+                J’aime découvrir, apprendre et surtout partager. <br />
+                Si je ne suis pas en train de coder ou de résoudre des défis techniques, <br />
+                vous me trouverez probablement en train de réaliser un documentaire <br />
+                sur un pays que je visite, ou d'explorer de nouvelles cultures. <br />
+                <br />
+                Chaque expérience m’enrichit, chaque interaction m’inspire. <br />
+                Je crois que ce que l’on vit, ce que l’on ressent, <br />
+                et les personnes que l’on croise façonnent qui nous sommes. <br />
+                Ces moments et découvertes me motivent à avancer, à créer, <br />
+                et à donner le meilleur de moi-même dans tout ce que j’entreprends. <br />
+               <br />
+               Voilà, c’est moi, simplement.
               </p>
             </div>
           </motion.div>
