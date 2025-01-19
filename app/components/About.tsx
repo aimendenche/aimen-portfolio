@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function About() {
   // Configuration des animations pour les nœuds
@@ -118,24 +118,20 @@ export default function About() {
               </h2>
             </div>
 
+            {/* Description principale */}
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
-  <div className="space-y-6 text-gray-600 dark:text-gray-300">
-  <p className="text-lg leading-relaxed">
-    Je suis passionné par les échanges et les rencontres. <br />
-    J’aime découvrir de nouveaux horizons, apprendre des choses variées et partager mes connaissances. <br />
-    Lorsque je ne suis pas occupé à coder ou à résoudre des défis techniques, <br />
-    je réalise souvent des documentaires sur des lieux que je visite, ou j'explore différentes cultures. <br />
-    <br />
-    Chaque expérience est une source d’apprentissage, et chaque interaction me motive. <br />
-    Ce sont ces moments de découverte et d’échange qui m’inspirent à avancer, à créer <br />
-    et à donner le meilleur de moi-même dans tous mes projets. <br />
-    <br />
-    Voilà qui je suis, simplement et sincèrement.
-  </p>
-</div>
-
-
-
+              <p className="text-lg leading-relaxed">
+                Je suis une personne passionnée par les échanges et les rencontres. <br />
+                J adore découvrir de nouveaux horizons, apprendre des choses variées et partager mes connaissances. <br />
+                Lorsque je ne suis pas occupé à coder ou à résoudre des défis techniques, <br />
+                je réalise souvent des documentaires sur des lieux que je visite ou j explore différentes cultures. <br />
+                <br />
+                Chaque expérience est une source d apprentissage, et chaque interaction me motive. <br />
+                Ces moments de découverte et d échange m inspirent à avancer, à créer <br />
+                et à donner le meilleur de moi-même dans tous mes projets. <br />
+                <br />
+                Voilà qui je suis, simplement.
+              </p>
             </div>
           </motion.div>
         </motion.div>
