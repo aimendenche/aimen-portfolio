@@ -119,22 +119,21 @@ export default function About() {
             </div>
 
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
+  <div className="space-y-6 text-gray-600 dark:text-gray-300">
   <p className="text-lg leading-relaxed">
-    Passionné par les échanges et les rencontres. <br />
-    J&apos;aime découvrir, apprendre et surtout partager. <br />
-    Si je ne suis pas en train de coder ou de résoudre des défis techniques, <br />
-    vous me trouverez probablement en train de réaliser un documentaire <br />
-    sur un pays que je visite, ou d&apos;explorer de nouvelles cultures. <br />
+    Je suis passionné par les échanges et les rencontres. <br />
+    J’aime découvrir de nouveaux horizons, apprendre des choses variées et partager mes connaissances. <br />
+    Lorsque je ne suis pas occupé à coder ou à résoudre des défis techniques, <br />
+    je réalise souvent des documentaires sur des lieux que je visite, ou j'explore différentes cultures. <br />
     <br />
-    Chaque expérience m&apos;enrichit, chaque interaction m&apos;inspire. <br />
-    Je crois que ce que l&apos;on vit, ce que l&apos;on ressent, <br />
-    et les personnes que l&apos;on croise façonnent qui nous sommes. <br />
-    Ces moments et découvertes me motivent à avancer, à créer, <br />
-    et à donner le meilleur de moi-même dans tout ce que j&apos;entreprends. <br />
+    Chaque expérience est une source d’apprentissage, et chaque interaction me motive. <br />
+    Ce sont ces moments de découverte et d’échange qui m’inspirent à avancer, à créer <br />
+    et à donner le meilleur de moi-même dans tous mes projets. <br />
     <br />
-    Voil&aacute;, c&rsquo;est moi, simplement.
+    Voilà qui je suis, simplement et sincèrement.
   </p>
 </div>
+
 
 
             </div>
