@@ -9,7 +9,7 @@ interface CompetenceHumaine {
   resumeCourt: string
   contenuComplet: string
   competences: string[]
-  categorie: "Analyse" | "organisationnelles " | "Collaboration" | "sociales"
+  categorie: "Analyse" | "organisationnelles " | "Collaboration" | "Sociales"
 }
 
 export default function CompetencesHumaines() {
