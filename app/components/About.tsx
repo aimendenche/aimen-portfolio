@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 
+/* eslint-disable react/no-unescaped-entities */
+
 export default function About() {
   // Configuration des animations pour les nœuds
   const nodeAnimation = {
@@ -114,7 +116,7 @@ export default function About() {
                 A Propos de Moi
               </motion.span>
               <h2 className="text-4xl font-bold text-gray-900 dark:text-white">
-                Moi, c&apos;est Aimen
+                Moi, c'est Aimen
               </h2>
             </div>
 
@@ -122,12 +124,12 @@ export default function About() {
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
               <p className="text-lg leading-relaxed">
                 Je suis une personne passionnée par les échanges et les rencontres. <br />
-                J&apos;adore découvrir de nouveaux horizons, apprendre des choses variées et partager mes connaissances. <br />
+                J'adore découvrir de nouveaux horizons, apprendre des choses variées et partager mes connaissances. <br />
                 Lorsque je ne suis pas occupé à coder ou à résoudre des défis techniques, <br />
-                je réalise souvent des documentaires sur des lieux que je visite ou j&apos;explore différentes cultures. <br />
+                je réalise souvent des documentaires sur des lieux que je visite ou j'explore différentes cultures. <br />
                 <br />
-                Chaque expérience est une source d&apos;apprentissage, et chaque interaction me motive. <br />
-                Ces moments de découverte et d&apos;échange m&apos;inspirent à avancer, à créer <br />
+                Chaque expérience est une source d'apprentissage, et chaque interaction me motive. <br />
+                Ces moments de découverte et d'échange m'inspirent à avancer, à créer <br />
                 et à donner le meilleur de moi-même dans tous mes projets. <br />
                 <br />
                 Voila qui je suis, simplement et sincèrement.
