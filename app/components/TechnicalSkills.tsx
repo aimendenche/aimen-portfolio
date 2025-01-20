@@ -56,7 +56,7 @@ Je souhaite également approfondir l'automatisation à grande échelle, en explo
       id: 2,
       titre: "Linux",
       resumeCourt: "Avec Linux, on peut gérer des systèmes, sécuriser des serveurs et automatiser des environnements grâce à sa flexibilité et sa puissance.",
-      contenuComplet: `ntroduction à Linux
+      contenuComplet: `
 
 Introduction
 Depuis que j'ai commencé à travailler dans le domaine de l'IT, Linux est devenu un élément central de mon environnement professionnel. Il ne s’agit pas seulement d’un système d’exploitation, mais d’une plateforme sur laquelle je m’appuie pour accomplir pratiquement toutes mes tâches, que ce soit pour l'administration des serveurs, le déploiement d'applications ou l’automatisation des processus. Sa flexibilité et sa puissance en font un outil incontournable dans mon travail quotidien.
@@ -98,6 +98,7 @@ Dans les années à venir, je compte continuer à utiliser Linux pour automatise
       titre: "Apache nifi",
       resumeCourt: "Apache NiFi : Simplifiez vos flux de données, sécurisez vos pipelines.",
       contenuComplet: `Depuis que j’ai commencé à travailler avec des pipelines de données, Apache NiFi est rapidement devenu un outil clé dans ma boîte à outils. NiFi, pour moi, n’est pas qu’un simple ETL (Extract, Transform, Load), mais une plateforme puissante qui facilite la gestion des flux de données en temps réel, tout en offrant une flexibilité et une simplicité d’utilisation incomparables.
+
 Introduction
 Depuis que j’ai découvert Apache NiFi, cet outil est devenu un allié incontournable dans mes projets de gestion des données. Sa simplicité d’utilisation et sa puissance le rendent particulièrement adapté pour concevoir et gérer des pipelines de données complexes. Que ce soit pour l’ingestion, la transformation ou l’automatisation des flux, NiFi offre une flexibilité qui facilite grandement le travail des ingénieurs en données.
 
